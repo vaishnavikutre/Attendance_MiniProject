@@ -1,0 +1,96 @@
+.Login_container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height:100vh;
+    width:100%;
+    background-color:#eeeeee;
+}
+.login-button{
+    width:333px;
+}
+#outlined-basic{
+    width:300px;
+}
+.login_container2{
+    height: 350px;;
+    width: 400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:#fafafa;
+    border-radius:4px;
+}
+.link_container{
+    display:flex;
+    align-items:end;
+    justify-content:end;
+    flex-direction:row;
+}
+.FirstPage_Container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 600px;
+    height: 200px;
+    background-color:#f5f5f5;
+
+}
+.FirstP-button{
+    width: 200px;
+    height: 60px;
+}
+.FirstP_MainContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:100vh;
+    background: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Dropdown{
+    width: 180px;
+    margin-left:10px;
+}
+.takeA_Container{
+    width: 1300px;
+    height: 140px;
+    background-color:#eceff1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.takeA_MainContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:5px;
+}
+.table{
+    width: 1300px;
+    margin-top:20px;
+}
+.table_container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.table_head{
+    background-color: #1f72ee;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+.ViewA_Container{
+    width: 1300px;
+    height: 120px;
+    background-color:#eceff1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}

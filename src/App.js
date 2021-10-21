@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Faculty_Login from './pages/Login_page.jsx';
+import FirstPage from './pages/FirstPage.jsx';
+import TakeAttendance from './pages/TakeAttendance.jsx';
+import View_Attendance from './pages/View_Attendance.jsx';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Router>
+                <Switch>
+                <Route exact path="/" component={Faculty_Login} />
+                <Route exact path="/First_page" component={FirstPage} />
+                <Route exact path="/TakeAttendance" component={TakeAttendance} />
+                <Route exact path="/ViewAttendance" component={View_Attendance} />
+                </Switch>
+            </Router>
+        </div>
+    )
 }
 
-export default App;
+export default App
